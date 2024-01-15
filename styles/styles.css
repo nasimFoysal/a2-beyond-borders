@@ -1,3 +1,112 @@
-h2{
-    background-color: aqua;
+/* commom styles */
+* {
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-family: "Mulish", sans-serif;
+}
+
+/* font-family: 'Inter', sans-serif; */
+body{
+    margin-bottom: 300px;
+}
+
+.btn-primary {
+  border-radius: 0.5rem;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+  border: none;
+  padding: 14px 35px;
+  
+}
+
+/*---------------- main styles---------------------*/
+/*----------------popular section------------------- */
+.popular-container {
+  margin: 6.25rem 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular-text-container {
+  margin-right: 3rem;
+}
+
+.popular-text-container h2 {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.popular-text-container p,
+ul {
+  color: rgba(19, 19, 24, 0.7);
+  line-height: 1.625rem;
+}
+
+.popular-text-container p {
+  margin-top: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.popular-text-container ul {
+  width: 90%;
+}
+.popular-text-container li {
+  margin-bottom: 1.4rem;
+}
+
+.popular-img-container, .popular-img-container img{
+    border-radius: 1rem;
+}
+
+
+
+
+
+/* -----------------responsive styles------------------- */
+/* ===================================================== */
+
+/* -----------------mobile responsive------------------ */
+
+@media only screen and (max-width:600px) {
+    .popular-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 34px;
+        margin: 1.5rem 1.25rem;
+    }
+    .popular-text-container{
+        margin-right: 0px;
+    }
+    .popular-text-container h2 {
+        font-size: 1.25rem;
+    }
+    .popular-text-container p, ul {
+        font-size: 14px;
+    }
+    .popular-text-container p {
+        margin-top: 1rem;
+    }
+
+    .popular-text-container ul {
+        margin-right: 0px;
+        /* margin-left: ; */
+    }
+    .popular-text-container li {
+        margin-bottom: 12px;
+      }
+
+    .popular-img-container{
+        text-align: center;
+    }
+    .popular-img-container img{
+        width: 100%;
+    }
+    
 }
