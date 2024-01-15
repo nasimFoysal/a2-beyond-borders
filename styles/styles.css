@@ -25,10 +25,76 @@ body {
 
 /* ----------header styles------------ */
 /* ---------------nav styles------------ */
+nav {
+    margin: 3.25rem 7.5rem 0rem 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+.logo-img-container{
+    width: 40px;
+    margin-left: 0px;
+    margin-right: 1rem;
+}
+.logo-img-container img{
+    width: 100%;
+}
+.nav-left h4{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+.nav-left span{
+    color: #FF5400;
+    margin-left: 10px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-right{
+    margin-right: 0px;
+}
+
+
+.nav-right ul{
+    display: flex;
+    align-items: center;
+
+}
+.nav-right li{
+    list-style: none;
+    margin-left: 35px;
+    
+    }
+.nav-right a {
+    text-decoration: none;
+    color:#424247;
+    font-size: 18px;
+    
+}
+
+#home{
+    color: #FF5400;
+    font-weight: 700
+}
+
+
+
 
 /* -------------------banner styles------------ */
 .banner-container {
-  margin: 6.25rem 120px;
+  margin:3.25rem 7.5rem 6.25rem  7.5rem;
   height: 440px;
   /* border: 1px solid purple; */
 
@@ -378,7 +444,6 @@ footer{
     justify-content: center;
     align-items: center;
 
-
 }
 .footer-conents{
     width: 54%;
@@ -414,8 +479,6 @@ footer{
     margin-left: 10px;
   }
 
-
-
 .footer-conents p{
     color: #5A5A5D;
     line-height: 26px;
@@ -438,9 +501,6 @@ footer{
     background-color: rgba(19, 19, 24, 0.1);
 }
 
-
-
-
 #copyright {
     color: #131318;
     font-family: 'Inter', sans-serif;
@@ -456,6 +516,33 @@ footer{
 /* -----------------mobile responsive------------------ */
 
 @media only screen and (max-width: 600px) {
+    /* nav */
+    nav{
+        margin: 1rem;
+    }
+    .nav-left h4 {
+        font-size: 21.543px;
+    }
+
+    .logo-img-container{
+        width: 28px;
+        margin-right: 9px;
+    }
+    .logo-img-container img{
+        width: 100%;
+    }
+    .nav-left span{
+        margin-left: 5px;
+    }
+    .nav-right{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        margin-right: 5px;
+    }
+
+
     /* banner */
     .banner-container{
         margin: 1.5rem 1.25rem;
