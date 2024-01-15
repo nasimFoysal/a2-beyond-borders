@@ -7,7 +7,7 @@
   font-family: "Mulish", sans-serif;
 }
 
-/* font-family: 'Inter', sans-serif; */
+
 body {
   margin-bottom: 300px;
 }
@@ -368,6 +368,88 @@ ul {
   font-weight: 800;
 }
 
+
+/* -----------------footer styles------------------ */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.footer-conents{
+    width: 54%;
+    text-align: center;
+}
+
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img-cobtainer{
+    width: 40px;
+    margin-left: 0px;
+    margin-right: 1rem;
+}
+.footer-img-cobtainer img{
+    width: 100%;
+}
+
+.footer-logo-container h4{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+
+  .footer-logo-container span {
+    color: #FF5400;
+    margin-left: 10px;
+  }
+
+
+
+.footer-conents p{
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+.footer-social-links{
+    margin-bottom: 3rem;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-conents hr{
+    height: 1px;
+    border: none;
+    margin: 0px;
+    background-color: rgba(19, 19, 24, 0.1);
+}
+
+
+
+
+#copyright {
+    color: #131318;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin-top: 3rem;
+
+}
+
+
 /* -----------------responsive styles------------------- */
 /* ===================================================== */
 
@@ -530,6 +612,27 @@ ul {
   .newsletter-offer {
     bottom: 35px;
   }
+
+  /* footer */
+  footer{
+    height: 375px;
+  }
+  .footer-conents{
+    /* margin-left: 0px;
+    margin-right: 0px; */
+    width: 80%;
+  }
+  .footer-logo-container h4{
+    font-size: 21.543px;
+  }
+  .footer-img-cobtainer{
+     width: 28.724px;;
+  }
+
+  .footer-conents p{
+    font-size: 14px;
+    line-height: 24px;
+    }
 
 
 }
