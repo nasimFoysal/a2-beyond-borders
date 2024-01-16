@@ -1,0 +1,23 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1440px;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  
+  body {
+    margin-bottom: 300px;
+  }
+  /* -------------------------------------------- */
+
+
+
+  /* --------------- */
+  @media only screen and (max-width: 600px) {
+    
+
+
+
+  }
