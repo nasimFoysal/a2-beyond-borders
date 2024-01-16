@@ -10,17 +10,13 @@ body {
   margin-bottom: 300px;
 }
 
-.btn-perfect {
-    border-radius: 0.5rem;
-    background: #ff5400;
-    color: #fff;
-    text-align: center;
-    font-size: 17.6px;
-    font-weight: 800;
-    border: none;
-    padding: 12.32px 30.8px;
-  }
 /* -------------------------------------------- */
+
+.destination-container {
+    margin: 6.25rem 120px;
+}
+
+
 
 
 
@@ -32,6 +28,10 @@ body {
 
 /* --------------- */
 @media only screen and (max-width: 600px) {
+
+    
+
+
 
     
 
