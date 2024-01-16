@@ -605,7 +605,7 @@ ul {
 }
 
 .deals-img-container {
-  border: 1px solid darkcyan;
+  /* border: 1px solid darkcyan; */
   height: 440px;
   margin-bottom: 48px;
   border-radius: 16px;
