@@ -693,23 +693,13 @@ ul {
   height: 375px;
   width: 100%;
   border-radius: 1rem;
-  
-  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%) , url("../Images/Group40089.png");
-  column-gap: 1.5rem;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 
 
 }
 
-.perfect-img-container div {
-  color: #FFF;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 36px; 
+.perfect-img-container iframe{
+  border-radius: 1rem;
+  
 }
 
 
@@ -1194,7 +1184,10 @@ footer{
 }
 
 .perfect-img-container div{
-    font-size: 20px;
+    width: 100%;
+}
+.perfect-img-container iframe {
+  width: 100%;
 }
 
   /* newsletter */
