@@ -8,19 +8,21 @@
 }
 
 
-body {
-  margin-bottom: 300px;
-}
-
 .btn-primary {
   border-radius: 0.5rem;
-  background: #ff5400;
+  background: rgb(255, 85, 0);
   color: #fff;
   text-align: center;
   font-size: 1.25rem;
   font-weight: 800;
   border: none;
   padding: 14px 35px;
+}
+
+button:hover{
+  background: rgba(255, 85, 0, .9);
+  cursor: pointer;
+
 }
 
 /* ----------header styles------------ */
@@ -66,7 +68,6 @@ nav {
     margin-right: 0px;
 }
 
-
 .nav-right ul{
     display: flex;
     align-items: center;
@@ -96,14 +97,13 @@ nav {
 .banner-container {
   margin:3.25rem 7.5rem 6.25rem  7.5rem;
   height: 440px;
-  /* border: 1px solid purple; */
+  border-radius: 16px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 16px;
-
+  
   background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group1311.png");
   background-repeat: no-repeat;
   background-position: bottom;
@@ -112,8 +112,6 @@ nav {
 }
 
 .banner-text-container {
-  /* border: 1px solid red; */
-  /* width: 60%; */
   width: 710px;
 }
 .banner-text-upper{
@@ -139,7 +137,6 @@ nav {
   padding: 1rem 0.6rem;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.30);
-  /* background-color: aquamarine; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -241,26 +238,6 @@ ul {
 }
 
 /*--------------------destination styles--------------- */
-/* .destination-container {
-  margin: 6.25rem 120px;
-}
-
-.destination-text-container {
-  text-align: center;
-  width: 48%;
-}
-
-.destination-text-container h2 {
-  color: #131318;
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 1.5rem;
-}
-.destination-text-container p {
-  color: rgba(19, 19, 24, 0.7);
-  line-height: 26px;
-} */
-
 
 .destination-container {
   margin: 6.25rem 120px;
@@ -287,12 +264,10 @@ ul {
 }
 
 .destination-img-container{
-  /* border: 1px solid darkorchid; */
   display: grid;
-  /* grid-template-rows: repeat(3, 1fr); */
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
-  /* background-color: #2196F3; */
+
 }
 
 .country-one{
@@ -358,9 +333,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid darkred; */
   background-color: rgba(255, 255, 255, 0.8);
-
   border-radius: 1rem;
 
 }
@@ -371,10 +344,6 @@ ul {
   font-size: 28px;
   font-weight: 800;
 }
-
-
-
-
 
 
 
@@ -514,7 +483,6 @@ ul {
 
 .rec-bottom{
   display: flex;
-  /* align-items: baseline; */
   justify-content: space-between;
 }
 .rec-bot{
@@ -526,7 +494,6 @@ ul {
 .rec-time{
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   margin-top: 14px;
   margin-bottom: 14px;
 }
@@ -605,17 +572,11 @@ ul {
 }
 
 .deals-img-container {
-  /* border: 1px solid darkcyan; */
   height: 440px;
   margin-bottom: 48px;
   border-radius: 16px;
-  /* position: relative; */
   display: flex;
   align-items: center;
-  /* justify-content: flex-end; */
-  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-
- */
 
  background-image: url("../Images/Group39.png");
  background-repeat: no-repeat;
@@ -627,14 +588,11 @@ ul {
   padding: 44px 68px 44px 44px;
   max-width: 510px;
   max-height: 340px;
-  /* border: 1px solid firebrick; */
   border-radius: 16px;
   border: 2px solid #fff;
 
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
-
-  /* position: absolute; */
   margin-left: auto;
   margin-right: 50px;
   
@@ -656,7 +614,6 @@ ul {
     font-size: 14px;
 
 }
-
 
 .deal-inside-box h4{
     color: #131318;
@@ -692,10 +649,6 @@ ul {
 
 
 
-
-
-
-
 /* ------------perfect styles------------------- */
 
 .perfect-container{
@@ -707,10 +660,9 @@ ul {
 
 .perfect-text-container h2 {
   color: #131318;
-  /* font-size: 40px; */
   font-size: 35px;
   font-weight: 800;
-  /* line-height: 60px; */
+
 }
 
 .perfect-text-container p{
@@ -742,7 +694,6 @@ ul {
   width: 100%;
   border-radius: 1rem;
   
-
   background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%) , url("../Images/Group40089.png");
   column-gap: 1.5rem;
 
@@ -753,14 +704,10 @@ ul {
 
 }
 
-
 .perfect-img-container div {
   color: #FFF;
-
   text-align: center;
-
   font-size: 24px;
-  /* width: 240px; */
   font-weight: 700;
   line-height: 36px; 
 }
@@ -1018,7 +965,6 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 1rem;
-        /* margin: 24px; */
         width: 80%;
         padding-left: 5px;
         padding-right: 5px;
@@ -1041,9 +987,6 @@ footer{
     }
 
    
-        
-
-
     /* popular */
   .popular-container {
     flex-direction: column;
@@ -1290,8 +1233,6 @@ footer{
     height: 375px;
   }
   .footer-conents{
-    /* margin-left: 0px;
-    margin-right: 0px; */
     width: 80%;
   }
   .footer-logo-container h4{
